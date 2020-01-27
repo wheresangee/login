@@ -7,10 +7,10 @@
 	width: 100%;
 	height: 100vh;
 	color: #fff;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background: linear-gradient(-45deg, #5c3e44, #eb9bad, #8a5c65, #ed7e98);
 	background-size: 400% 400%;
 	position: relative;
-	animation: change 10s ease-in-out infinite;
+
 }
 @keyframes change {
 	0%{
@@ -104,7 +104,7 @@ input[type=text], input[type=password] {
 	margin-top: 20px;
 }
 #subm {
-	background-color: #4CAF50;
+	background-color: #a4a649;
 	color: white;
 	padding: 14px 20px;
 	margin: 8px 0;
@@ -115,7 +115,7 @@ input[type=text], input[type=password] {
 	margin-top: 15px;
 }
 #subm:hover {
-	background-color: #288024;
+	background-color: #93AB35;
 }
 .psw {
 	position: absolute;
@@ -130,7 +130,7 @@ a {
 	margin-left: 26px;
 }
 #subm1 {
-	background-color: #4CAF50;
+	background-color: #93AB35;
 	color: white;
 	padding: 14px 20px;
 	margin: 8px 0;
@@ -141,12 +141,12 @@ a {
 	margin-top: 15px;
 }
 #subm1:hover {
-	background-color: #288024;
+	background-color:#93AB35;
 }
 #validation {
 	width: 200px;
 	height: 200px;
-	background-color: white;
+	background-color: #92bde8;
 	position: absolute;
 	top: 65px;
 	left: 67px;
@@ -156,4 +156,3 @@ a {
 	position: absolute;
 	top: 275px;
 	left: 160px;
-}
